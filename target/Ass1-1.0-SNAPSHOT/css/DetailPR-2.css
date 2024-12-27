@@ -1,0 +1,183 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 21, 2024, 9:24:04 AM
+    Author     : DUY
+*/
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.back-button a{
+    padding: 10px 20px;
+    background-color: black;  
+    color: white;
+    border-radius: 18px;    
+}
+
+.back-button{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.detail_place{
+    background-color: rgb(239, 239, 239);
+    padding: 25px 15px;
+    border-radius: 17px;
+    height: 640px;
+   
+}
+
+
+.left_part{
+    position: relative;
+    height: 100%;
+}
+
+.main-image{
+    height: 100%;
+}
+.left_part img{
+   width: 100%;
+   height: 100%;
+   border-radius: 14px;
+}
+
+.list_img-elemnt {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.list-img{
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.list-img::-webkit-scrollbar {
+    display: none;
+}
+
+.list_img-elemnt img{
+    width: 87%;
+    height: 98%;
+    cursor: pointer;
+}
+
+.left_part .rated{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    background-color: greenyellow;
+    padding: 10px 15px;
+    border-radius: 9px;
+}
+
+.right-part{
+    overflow-y: scroll;
+    scrollbar-width: unset;
+    height: 100%;
+}
+
+.right-part::-webkit-scrollbar {
+    display: none;
+}
+
+.product_infor p:first-child{
+    color: rgba(212, 7, 7, 0.866);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.product_infor p:last-child{
+    font-weight: 600;
+    color: rgb(150, 150, 150);
+}
+
+.product_price p{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.product-description{
+    margin-top: 35px;
+    line-height: 23px;
+}
+
+.size{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.size_shoes{
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.size_option-header{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.size_element{
+    text-align: center;
+    padding: 3px;
+}
+
+.size_element label{
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 17px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: whitesmoke;
+}
+
+.size_element label:hover{
+    background-color: rgb(209, 249, 149);
+    cursor: pointer;
+    border-color: rgb(42, 42, 42);
+}
+
+
+
+.button-shop button:first-child{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 10px 0px;
+
+}
+
+.button-shop button:last-child{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+
+.button-shop button:hover{
+    opacity: 0.6;
+}
+
+.product-option_customize img{
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px 0px;
+    border: 2px solid black;
+}
+
+
+

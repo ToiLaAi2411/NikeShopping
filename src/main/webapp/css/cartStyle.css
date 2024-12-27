@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 18, 2024, 10:59:28 AM
+    Author     : DUY
+*/
+
+body {
+	margin-top: 20px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;   
+}
+
+.back-button{
+    background-color: rgb(188, 188, 188);
+    border: none;
+    border-radius: 15px;
+}
+
+.check-out{
+    background-color: rgb(126, 208, 3);
+}
+
+.product-name{
+    display: -webkit-box;             /* Sử dụng box model linh hoạt */
+    -webkit-box-orient: vertical;     /* Đặt hướng của hộp là dọc */
+    -webkit-line-clamp: 1;            /* Số dòng tối đa trước khi hiển thị dấu ba chấm */
+    overflow: hidden;                 /* Ẩn nội dung tràn ra ngoài */
+    text-overflow: ellipsis; 
+  }
+
+
